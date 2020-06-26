@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.bukkit</groupId>
-    <artifactId>craftbukkit</artifactId>
+    <artifactId>bukkit</artifactId>
     <packaging>jar</packaging>
     <version>1.15.2-R0.1-SNAPSHOT</version>
-    <name>CraftBukkit</name>
+    <name>Bukkit</name>
     <url>https://www.spigotmc.org/</url>
 
     <properties>
