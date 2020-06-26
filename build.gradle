@@ -48,7 +48,7 @@ repositories {
 }
 
 sourceSets { 
-    MyceliumMC.java.srcDirs = ['src/main/java', 'projects/Catserver/src/main/java']
+    MyceliumMC.java.srcDirs = ['src/main/java', 'projects/MyceliumMC/src/main/java']
 }
 
 minecraft.version = "1.15.2"
@@ -70,7 +70,7 @@ minecraft {
     }
 
     projects {
-        catserver {
+        MyceliumMC {
             rootDir "."
             patchDir "patches/"
             patchAfter "clean"
@@ -156,7 +156,7 @@ outputJar {
     
     manifest.attributes([
             "Implementation-Title": rootProject.name,
-            "Implementation-Version": "git-CatServer-" + minecraft.version + "-" + version,
+            "Implementation-Version": "git-MyceliumMC-" + minecraft.version + "-" + version,
             "Main-Class": "MyceliumMC.server.MyceliumMCLaunch",
             "TweakClass": "net.minecraftforge.fml.common.launcher.FMLTweaker",
             "Class-Path": file("src/main/resources/libraries.info").readLines().findAll{ "lib".equals(it.split("\\|")[0]) }.collect { it.split("\\|")[1] }.join(" ")
@@ -175,8 +175,8 @@ processJson {
     ])
 }
 
-extractCatserverSources { exclude "**/SideOnly.java", "**/Side.java" }
-extractCatserverResources { exclude "**/log4j2.xml" }
+extractMyceliumMCSources { exclude "**/SideOnly.java", "**/Side.java" }
+extractMyceliumMCResources { exclude "**/log4j2.xml" }
 
 genGradleProjects {
     addRepo('forge', 'http://files.minecraftforge.net/maven/')
