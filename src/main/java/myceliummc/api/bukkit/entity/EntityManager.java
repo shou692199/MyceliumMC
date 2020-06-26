@@ -1,4 +1,4 @@
-package catserver.api.bukkit.entity;
+package MyceliumMC.api.bukkit.entity;
 
 import java.util.ArrayList;
 import java.util.List;
