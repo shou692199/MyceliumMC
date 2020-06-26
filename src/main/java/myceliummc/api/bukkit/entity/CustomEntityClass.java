@@ -1,8 +1,8 @@
-package catserver.api.bukkit.entity;
+package MyceliumMC.api.bukkit.entity;
 
 import javax.annotation.Nullable;
 
-import catserver.server.utils.NMSUtils;
+import MyceliumMC.server.utils.NMSUtils;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityCreature;
 import net.minecraft.entity.EntityLivingBase;
