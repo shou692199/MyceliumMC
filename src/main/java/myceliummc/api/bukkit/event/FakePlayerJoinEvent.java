@@ -1,4 +1,4 @@
-package catserver.api.bukkit.event;
+package MyceliumMC.api.bukkit.event;
 
 import org.bukkit.World;
 import org.bukkit.entity.Player;
