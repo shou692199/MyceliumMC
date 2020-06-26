@@ -1,4 +1,4 @@
-package catserver.api.bukkit.event;
+package MyceliumMC.api.bukkit.event;
 
 import org.bukkit.Bukkit;
 import org.bukkit.event.HandlerList;
