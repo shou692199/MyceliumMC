@@ -10,7 +10,7 @@ import org.spigotmc.AsyncCatcher;
 public class MyceliumMC {
     public static final Logger log = LogManager.getLogger("MyceliumMC");
     private static final String version = "2.1.0";
-    private static final String native_version = "v1_12_R1";
+    private static final String native_version = "v1_15_R0";
 
     private static MyceliumMCConfig config = new MyceliumMCConfig("MyceliumMC.yml");
 
